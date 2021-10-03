@@ -26,6 +26,48 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="apellidop" class="col-md-4 col-form-label text-md-right">{{ __('Apellidop') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="apellidop" type="text" class="form-control @error('apellidop') is-invalid @enderror" name="apellidop" value="{{ old('apellidop') }}" required autocomplete="apellidop" autofocus>
+
+                                @error('apellidop')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="apellidom" class="col-md-4 col-form-label text-md-right">{{ __('Apellidom') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="apellidom" type="text" class="form-control @error('apellidom') is-invalid @enderror" name="apellidom" value="{{ old('apellidom') }}" required autocomplete="apellidom" autofocus>
+
+                                @error('apellidom')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="telefono" class="col-md-4 col-form-label text-md-right">{{ __('Telefono') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="telefono" type="tel" class="form-control @error('telefono') is-invalid @enderror" name="telefono" value="{{ old('telefono') }}" required autocomplete="telefono" autofocus>
+
+                                @error('telefono')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">

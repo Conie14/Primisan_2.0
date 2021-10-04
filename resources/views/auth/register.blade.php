@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="apellidop" class="col-md-4 col-form-label text-md-right">{{ __('Apellidop') }}</label>
+                            <label for="apellidop" class="col-md-4 col-form-label text-md-right">{{ __('apellidop') }}</label>
 
                             <div class="col-md-6">
                                 <input id="apellidop" type="text" class="form-control @error('apellidop') is-invalid @enderror" name="apellidop" value="{{ old('apellidop') }}" required autocomplete="apellidop" autofocus>
@@ -40,7 +40,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="apellidom" class="col-md-4 col-form-label text-md-right">{{ __('Apellidom') }}</label>
+                            <label for="apellidom" class="col-md-4 col-form-label text-md-right">{{ __('apellidom') }}</label>
 
                             <div class="col-md-6">
                                 <input id="apellidom" type="text" class="form-control @error('apellidom') is-invalid @enderror" name="apellidom" value="{{ old('apellidom') }}" required autocomplete="apellidom" autofocus>

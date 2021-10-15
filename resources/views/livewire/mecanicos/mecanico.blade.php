@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" href="image/favicon.png" type="image/png" sizes="16x16" />
-	<link rel="stylesheet" href="css/vendor.bundle.css" />
-  <link id="style-css" rel="stylesheet" href="css/style.css" />
-	<script src="https://kit.fontawesome.com/7c0f08b5a4.js" crossorigin="anonymous"></script>
-</head>
-<body class="site-body style-v1">
-<!-- Header -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/favicon.png" type="image/png" sizes="16x16" />
+    <link rel="stylesheet" href="css/vendor.bundle.css" />
+    <link id="style-css" rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/7c0f08b5a4.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="site-body style-v1">
+    <!-- Header -->
     <header class="site-header header-s1 is-sticky">
       <!-- Topbar -->
       <div class="topbar">
@@ -76,7 +76,7 @@
             <ul class="nav navbar-nav">
               <li><a href="/">INICIO</a></li>
               <li><a href="/nosotros">NOSOTROS</a></li>
-              <li><a href="/servicios"">SERVICIOS</a></li>
+              <li><a href="/servicios">SERVICIOS</a></li>
               <li class="dropdown">
                 <a>PROYECTOS</a>
                   <ul class="dropdown-menu">
@@ -101,179 +101,99 @@
         </div>
       </div>
       <!-- #end Navbar -->
-      <!-- Banner/Slider -->
-      <div id="slider" class="banner banner-slider carousel slide carousel-fade">
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <!-- Set the first background image using inline CSS below. -->
-            <div
-              class="fill"
-              style="background-image: url('img/construccion.jpg');">
-              <div class="banner-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="banner-text al-left pos-left dark">
-                      <div class="animated fadeInRight">
-                        <h2 class="ucap">
-                          PROVEEDOR LÍDER DE SOLUCIONES INDUSTRIALES
-                        </h2>
-                        <p></p>
-                        <div class="banner-cta">
-                          <a class="btn"  href="/construccion">Leer Más</a>
-                          <a class="btn btn-alt btn-outline"  href="/cotizacion">Contactanos</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <!-- Set the second background image using inline CSS below. -->
-            <div
-              class="fill"
-              style="background-image: url('img/mecanico.jpg')">
-              <div class="banner-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="banner-text al-left pos-left light">
-                      <div class="animated fadeInRight">
-                        <h2 class="ucap">
-                          SOMOS EQUIPO <br/>DE PROFESIONALES
-                        </h2>
-                        <div class="banner-cta">
-                          <a class="btn" routerLink="/construccion">Leer Más</a>
-                          <a class="btn btn-light btn-outline" routerLink="/cotizacion" routerLinkActive="router-link-active">Contactanos</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <!-- Set the third background image using inline CSS below. -->
-            <div
-              class="fill"
-              style="background-image: url('img/construccion2.jpg');">
-              <div class="banner-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="banner-text al-left pos-left dark">
-                      <div class="animated fadeInRight">
-                        <h2 class="ucap">
-                            We are team of the professionals
-                        </h2>
-                        <div class="banner-cta">
-                          <a class="btn" routerLink="/construccion">Leer Más</a>
-                          <a class="btn btn-alt btn-outline" routerLink="/cotizacion" routerLinkActive="router-link-active">Contactanos</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <!-- Banner -->
+      <div class="banner banner-static">
+        <div class="container">
+          <div class="content row">        
+            <div class="imagebg">
+              <img src="img/banner.jpg" alt="">
             </div>
           </div>
         </div>
-        <!-- Left and right controls -->
-        <a
-          class="left carousel-control"
-          href="#slider"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            class="glyphicon glyphicon-chevron-left"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="right carousel-control"
-          href="#slider"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            class="glyphicon glyphicon-chevron-right"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>         
-      <!-- #end Banner/Slider -->
+      </div>
+      <!-- End Banner -->
     </header>
     <!-- End Header -->
 
-    <!--Content -->
-    <!-- Service Section -->
-    <div class="gaps size-md"></div> 
-    <div class="section section-services section-pad">
-        <div class="container">
-            <div class="content row">
-              <!-- Feature Row  -->
-              <div class="feature-row feature-service-row row">
-                <div class="col-md-4 col-sm-6 even first">
-                  <!-- feature box -->
-                  <div class="feature boxed">
-                    <a href="/construccion">
-                      <div class="fbox-photo">
-                        <img src="img/obracivilprivada.jpg" alt="">
-                      </div>
-                    </a>
-                    <div class="fbox-content">
-                      <h3 class="center">Proyectos de construcción</h3>
-                      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                      <p><a href="/construccion" class="btn-link">Leer más</a></p>
-                    </div>
+    <!-- Contents -->
+    <div class="section section-contents section-pad">
+      <div class="container">
+        <div class="content row">	
+          <div class="row">
+            <div class="col-md-8">
+              <img src="img/obracivilprivada1.jpg" alt="" class="rounded mx-auto d-block">
+              <div class="gaps size-section"></div>
+              <h1 class="center">Proyecto de mecánica</h1>
+              <div class="gaps size-md"></div>
+              <p class="lead">.............Mecanicos ................</p>
+            </div>					
+            <!-- Sidebar -->
+            <div class="col-md-3">
+              <div class="sidebar-right">             
+                <div class="wgs-box wgs-menus">
+                  <div class="wgs-content">
+                    <ul class="list list-grouped">
+                      <li class="list-heading">
+                        <span>Otros proyectos y servicios</span>
+                        <ul>
+                          <li><a>Montajes Mecánicos</a></li>
+                          <li><a>Mecanicos</a></li>
+                          <li><a>Estructuras</a></li>
+                          <li><a>Soldadura</a></li>
+                          <li><a>Herrería</a></li>
+                          <li><a>Tubería</a></li>
+                          <li><a>Acero Inoxidable</a></li>
+                          <li><a>Acero al Carbón</a></li>
+                        </ul>
+                      </li>
+                    </ul>									
                   </div>
-                  <!-- End Feature box -->
                 </div>
-                <div class="col-md-4 col-sm-6 odd">
-                  <!-- feature box -->
-                  <div class="feature boxed">
-                    <a href="/electricidad">
-                      <div class="fbox-photo">
-                        <img src="img/obracivilprivada.jpg" alt="">
+                <div class="wgs-box wgs-quoteform">
+                  <h3 class="wgs-heading">Contáctanos</h3>
+                  <div class="wgs-content">
+                    <form  id="contact-us" class="form-quote" action="form/contact.php" method="post">
+                      <div class="form-results"></div>
+                      <div class="form-group">
+                        <div class="form-field">
+                          <input name="contact-name" type="text" placeholder="Nombre*" class="form-control required">
+                        </div>
                       </div>
-                    </a>
-                    <div class="fbox-content">
-                      <h3 class="center">Proyectos de electricidad</h3>
-                      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                      <p><a href="/electricidad" class="btn-link">Leer más</a></p>
-                    </div>
-                  </div>
-                  <!-- End Feature box -->
-                </div>  
-                <div class="col-md-4 col-sm-6 odd">
-                  <!-- featured box -->
-                  <div class="feature boxed">
-                    <a href="/mecanico">
-                      <div class="fbox-photo">
-                        <img src="img/obracivilprivada.jpg" alt="">
+                      <div class="form-group">
+                        <div class="form-field">
+                          <input name="contact-email" type="email" placeholder="Correo*" class="form-control required email">
+                        </div>
                       </div>
-                    </a>
-                    <div class="fbox-content">
-                      <h3 class="center">Proyectos de mecánica</h3>
-                      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                      <p><a href="/mecanico" class="btn-link">Leer más</a></p>
-                    </div>
+                      <div class="form-group">
+                        <div class="form-field form-m-bttm">
+                          <input name="contact-phone" type="text" placeholder="Telefono*" class="form-control">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-field">
+                          <input name="contact-service" type="text" placeholder="Servicio de interes*" class="form-control">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-field">
+                          <textarea name="contact-message" placeholder="Mensaje*" class="txtarea form-control required"></textarea>
+                        </div>
+                      </div>
+                      <input type="text" class="hidden" name="form-anti-honeypot" value="">
+                      <div class="col text-center">
+                        <button type="submit" class="btn btn-alt sb-h">Enviar</button>
+                      </div>
+                    </form>
                   </div>
-                  <!-- End Feature box -->
                 </div>
               </div>
-          <!-- Feture Row  #end -->
             </div>
+            <!-- Sidebar #end -->
+          </div>				
         </div>
+      </div>		
     </div>
-    <div class="gaps size-md"></div> 
     <!-- End Section -->
-
-    <!--End Content -->
 
     <!-- Footer Widget-->
     <div class="footer-widget section-pad">
@@ -366,23 +286,15 @@
     </div>
     <!-- End Copyright -->
 
-  <!-- Rreload Image for Slider -->
-  	<div class="preload hide">
-      <img alt="" src="img/construccion.jpg" />
-      <img alt="" src="img/mecanico.jpg" />
-      <img alt="" src="img/construccion2.jpg" />
-    </div>
-    <!-- End --> 
-
     <!-- Preloader !active please if you want -->
     <!-- <div id="preloader"><div id="status">&nbsp;</div></div> -->
     <!-- Preloader End -->
 
-	<!-- JavaScript Bundle -->
+  <!-- JavaScript Bundle -->
     <script src="js/jquery.bundle.js"></script>
     <!-- Theme Script init() -->
     <script src="js/script.js"></script>
     <!-- End script -->
-</body>
-</html>
 
+  </body>
+</html>

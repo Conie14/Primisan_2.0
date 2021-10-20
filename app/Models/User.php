@@ -22,8 +22,10 @@ class User extends Authenticatable
         'apellidop',
         'apellidom',
         'telefono',
+        'idarea',
         'email',
         'password',
+        
     ];
 
     /**

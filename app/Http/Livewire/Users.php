@@ -11,7 +11,7 @@ class Users extends Component
     use WithPagination;
 
 	protected $paginationTheme = 'bootstrap';
-    public $selected_id, $keyWord, $name, $apellidop, $apellidom, $telefono, $email, $password;
+    public $selected_id, $keyWord, $name, $apellidop, $apellidom, $telefono,$idarea, $email, $password;
     public $updateMode = false;
 
     public function render()
@@ -41,6 +41,8 @@ class Users extends Component
 		$this->apellidop = null;
 		$this->apellidom = null;
 		$this->telefono = null;
+        $this->idarea = null;
+        
 		$this->email = null;
         $this->password = null;
     }
@@ -52,6 +54,7 @@ class Users extends Component
 		'apellidop' => 'required',
 		'apellidom' => 'required',
 		'telefono' => 'required',
+        'idarea' => 'required',
 		'email' => 'required',
         'password' => 'required',
         
@@ -62,6 +65,7 @@ class Users extends Component
 			'apellidop' => $this-> apellidop,
 			'apellidom' => $this-> apellidom,
 			'telefono' => $this-> telefono,
+            'idarea'=>$this-> idarea,
 			'email' => $this-> email,
             'password' => $this->password,
         ]);
@@ -80,6 +84,7 @@ class Users extends Component
 		$this->apellidop = $record-> apellidop;
 		$this->apellidom = $record-> apellidom;
 		$this->telefono = $record-> telefono;
+        $this->idarea = $record-> idarea;
 		$this->email = $record-> email;
 		$this->password = $record-> password;
         $this->updateMode = true;
@@ -92,6 +97,7 @@ class Users extends Component
 		'apellidop' => 'required',
 		'apellidom' => 'required',
 		'telefono' => 'required',
+        'idarea' => 'required',
 		'email' => 'required',
         'password' => 'required',
         ]);
@@ -103,6 +109,7 @@ class Users extends Component
 			'apellidop' => $this-> apellidop,
 			'apellidom' => $this-> apellidom,
 			'telefono' => $this-> telefono,
+            'idarea' => $this-> telefono,
 			'email' => $this-> email,
             'password' => $this-> password
             ]);

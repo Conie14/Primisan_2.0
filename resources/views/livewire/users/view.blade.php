@@ -36,6 +36,7 @@
 								<th>Apellidop</th>
 								<th>Apellidom</th>
 								<th>Telefono</th>
+								<th>Area perteneciente</th>
 								<th>Email</th>
 								
 								<td>ACTIONS</td>
@@ -49,6 +50,7 @@
 								<td>{{ $row->apellidop }}</td>
 								<td>{{ $row->apellidom }}</td>
 								<td>{{ $row->telefono }}</td>
+								<td>{{ $row->idarea }}</td>
 								<td>{{ $row->email }}</td>
 								
 								<td width="90">

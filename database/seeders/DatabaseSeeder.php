@@ -24,6 +24,8 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         $this->call(Roleadmin::class);
         Area::create(['nombre'=>"Construcción"]);
+        Area::create(['nombre'=>"Electricidad"]);
+        Area::create(['nombre'=>"Mecánica"]);
 
         User::create([
 

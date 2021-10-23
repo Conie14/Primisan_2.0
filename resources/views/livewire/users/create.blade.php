@@ -27,6 +27,10 @@
                 <input wire:model="telefono" type="text" class="form-control" id="telefono" placeholder="Telefono">@error('telefono') <span class="error text-danger">{{ $message }}</span> @enderror
             </div>
             <div class="form-group">
+                <label for="idarea"></label>
+                <input wire:model="idarea" type="text" class="form-control" id="idarea" placeholder="idarea">@error('idarea') <span class="error text-danger">{{ $message }}</span> @enderror
+            </div>
+            <div class="form-group">
                 <label for="email"></label>
                 <input wire:model="email" type="text" class="form-control" id="email" placeholder="Email">@error('email') <span class="error text-danger">{{ $message }}</span> @enderror
             </div>

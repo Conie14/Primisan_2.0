@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    {{ config('app.stream', 'Primisian') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -35,13 +35,16 @@
                     <!-- Left Side Of Navbar -->
 					@auth()
                     <ul class="navbar-nav mr-auto">
-						<!--Nav Bar Hooks - Do not delete!!-->
-						<li class="nav-item">
-                            <a href="{{ url('/areas') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Areas</a> 
-                        </li>
-						<li class="nav-item">
-                            <a href="{{ url('/users') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Users</a> 
-                        </li>
+						<!--NAV PARA ADMIN-->
+                        @can('admin.home')
+                            <li class="nav-item">
+                                <a href="{{ url('/areas') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Areas</a> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ url('/users') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Users</a> 
+                            </li>
+                        @endcan
+
                     </ul>
 					@endauth()
 					

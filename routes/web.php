@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Auth::routes();
 
@@ -28,32 +26,22 @@ Auth::routes();
 Route::view('users', 'livewire.users.index')->middleware('can:admin.home');
 Route::view('update', 'livewire.users.update')->middleware('can:admin.home');
 Route::view('create', 'livewire.users.create')->middleware('can:admin.home');
+Route::view('areas', 'livewire.areas.index')->middleware('can:admin.home');
 
 
 
+//**************************    PUBLICO GENERAL ******************************************** */
 
-
-
-
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::view('ejemplos', 'livewire.ejemplo.index')->name('ejemplos');
+Route::view('clientes', 'livewire.cliente.clientes')->name('clientes');
+Route::view('construccion', 'livewire.construcciones.construccion')->name('construccion');
+Route::view('cotizacion', 'livewire.cotizaciones.cotizacion')->name('cotizacion');
+Route::view('electricidad', 'livewire.electricidades.electricidad')->name('electricidad');
+Route::view('mecanico', 'livewire.mecanicos.mecanico')->name('mecanico');
+Route::view('nosotros', 'livewire.ejemplo.nosotros')->name('nosotros');
+Route::view('servicios', 'livewire.ejemplo.servicios')->name('servicios');
 Auth::routes();
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-//Route Hooks - Do not delete//
-	Route::view('areas', 'livewire.areas.index')->middleware('auth');
-//Route::view('users', 'livewire.users.index')->middleware('auth');
-Route::view('ejemplos', 'livewire.ejemplo.index')->name('x');
-Route::view('clientes', 'livewire.cliente.clientes')->name('a');
-Route::view('construccion', 'livewire.construcciones.construccion')->name('b');
-Route::view('cotizacion', 'livewire.cotizaciones.cotizacion')->name('c');
-Route::view('electricidad', 'livewire.electricidades.electricidad')->name('d');
-Route::view('mecanico', 'livewire.mecanicos.mecanico')->name('e');
-Route::view('nosotros', 'livewire.ejemplo.nosotros')->name('f');
-Route::view('servicios', 'livewire.ejemplo.servicios')->name('g');
-Auth::routes();
-
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-//Auth::routes();
-
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

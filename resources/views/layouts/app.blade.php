@@ -45,6 +45,10 @@
                             </li>
                         @endcan
 
+                        <li class="nav-item">
+                                <a href="{{ url('/serviciostotales') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Servicios y/o Proyectos</a> 
+                        </li>
+
                     </ul>
 					@endauth()
 					

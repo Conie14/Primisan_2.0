@@ -29,6 +29,10 @@ Route::view('create', 'livewire.users.create')->middleware('can:admin.home');
 Route::view('areas', 'livewire.areas.index')->middleware('can:admin.home');
 
 
+//******************************* ING. Y ADMIN  ********************************************* */
+
+Route::view('serviciostotales', 'livewire.serviciostotales.index')->middleware('auth');
+
 
 //**************************    PUBLICO GENERAL ******************************************** */
 

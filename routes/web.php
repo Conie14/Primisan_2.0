@@ -47,5 +47,10 @@ Route::view('electricidad', 'livewire.electricidades.electricidad')->name('elect
 Route::view('mecanico', 'livewire.mecanicos.mecanico')->name('mecanico');
 Route::view('nosotros', 'livewire.ejemplo.nosotros')->name('nosotros');
 Route::view('servicios', 'livewire.ejemplo.servicios')->name('servicios');
+
+Route::view('construcciones', 'livewire.construcciones.index')->name('construccion');
+Route::view('electricidades', 'livewire.electricidades.index')->name('electricidad');
+Route::view('mecanicos', 'livewire.mecanicos.index')->name('mecanica');
+
 Auth::routes();
 

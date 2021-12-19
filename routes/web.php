@@ -48,6 +48,8 @@ Route::view('mecanico', 'livewire.mecanicos.mecanico')->name('mecanico');
 Route::view('nosotros', 'livewire.ejemplo.nosotros')->name('nosotros');
 Route::view('servicios', 'livewire.ejemplo.servicios')->name('servicios');
 
+//*********** cruds  */
+
 Route::view('construcciones', 'livewire.construcciones.index')->name('construccion');
 Route::view('electricidades', 'livewire.electricidades.index')->name('electricidad');
 Route::view('mecanicos', 'livewire.mecanicos.index')->name('mecanica');

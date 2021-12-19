@@ -76,7 +76,7 @@
             <ul class="nav navbar-nav">
               <li><a href="/">INICIO</a></li>
               <li><a href="/nosotros">NOSOTROS</a></li>
-              <li><a href="/servicios"">SERVICIOS</a></li>
+              <li><a href="/servicios">SERVICIOS</a></li>
               <li class="dropdown">
                 <a>PROYECTOS</a>
                   <ul class="dropdown-menu">
@@ -211,8 +211,28 @@
 
     <!--Content -->
     <!-- Service Section -->
+
+    <div id="demo"   >
+      <h1><center>¿Buscas una constructora de calidad para tu próximo proyecto?</center></h1>
+    </div>
+    <style type="text/css">
+      #demo {     
+      background-color: #ADD8E6;
+      height: 70px;
+      
+    }
+    </style>
+    
     <div class="gaps size-md"></div> 
     <div class="section section-services section-pad">
+      
+      <div class="container"> 
+      <H3> <center> <p>Nos especializamos en proporcionar a nuestros clientes la orientación para solucionar y/o eficientar procesos donde se tengan o requieran implementar Sistemas Mecatrónico y de Automatización, Instalaciones Eléctrica, Montajes Mécanicos, Fabricación y Diseño de Maquinaria, Soldadura y Pintura hasta la Ampliación de Redes de Energía Eléctrica en Media y Baja Tensión e Instalación de Barreras Cortafuego HILTI.</p></center></H3>
+      </div>
+      <br>
+
+      <h1><center>NUESTROS PROYECTOS</center>  </h1>
+      <br>
         <div class="container">
             <div class="content row">
               <!-- Feature Row  -->
@@ -227,7 +247,7 @@
                     </a>
                     <div class="fbox-content">
                       <h3 class="center">Proyectos de construcción</h3>
-                      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                      <p>(Obra Civil / Impermeabilización - Pintura / Aluminio / Tablaroca)</p>
                       <p><a href="/construccion" class="btn-link">Leer más</a></p>
                     </div>
                   </div>
@@ -243,7 +263,7 @@
                     </a>
                     <div class="fbox-content">
                       <h3 class="center">Proyectos de electricidad</h3>
-                      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                      <p>(Control y Automatización / Instrumentación / Baja y Alta Tensión)</p>
                       <p><a href="/electricidad" class="btn-link">Leer más</a></p>
                     </div>
                   </div>
@@ -259,17 +279,168 @@
                     </a>
                     <div class="fbox-content">
                       <h3 class="center">Proyectos de mecánica</h3>
-                      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                      <p>(Montajes Mecánicos / Estructuras /Soldadura / Herrería / Tubería / Acero Inoxidable / Acero al Carbón).</p>
                       <p><a href="/mecanico" class="btn-link">Leer más</a></p>
                     </div>
                   </div>
                   <!-- End Feature box -->
                 </div>
               </div>
-          <!-- Feture Row  #end -->
+                 <!-- Feture Row  #end -->
             </div>
+              <br>
+              <br>
+              <h1><center>NUESTROS SERVICIOS MAS SOLICITADOS</center> </h1>
+              <!-- Project Section -->
+              <div class="section section-projects section-pad">
+                <div class="container">
+                  <div class="content row">
+                    <!-- Projects - Filter Menu -->
+                    <div class="clear"></div>
+                    <div class="gallery-lists gallery-project-lists filter-menu text-center">
+                        <ul class="list">
+                            <li class="active" data-filter="all">All</li>
+                            <li data-filter="1">Energy</li>
+                            <li data-filter="2">Oil and Gas</li>
+                            <li data-filter="3">Mining</li>
+                            <li data-filter="4">Welding</li>
+                        </ul>
+                    </div>
+                    <!-- Projects Filter section (!required 'gallery-filter' class name in gallery & also filter-menu section above) -->
+                    <div class="gallery gallery-filter gallery-project gallery-filled project-morden with-caption hover-fade">
+                      <ul class="photos-list col-x4">
+                        <li class="filtr-item" data-category="1">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                  <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>Altria Warehouse Complex</h4>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="filtr-item" data-category="2">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>Balko Wind Power</h4>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="filtr-item" data-category="3">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>Apollo Hill Project</h4>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="filtr-item" data-category="3">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>Osage Bio Energy Plants</h4>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="filtr-item" data-category="4">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>Rocky Forge Refinary</h4>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="filtr-item" data-category="1, 3">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>Mingo Village Mining</h4>
+                            </a>
+                          </div>
+                        </li>
+
+                        <li class="filtr-item" data-category="4">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>First Freedom Center</h4>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="filtr-item" data-category="2">
+                          <div class="photo">
+                            <img src="img/obracivilprivada.jpg" alt="" />
+                            <div class="photo-link">
+                              <span class="links">
+                                <a class="btn more-link" href="/construccion">View Projects</a>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="photo-caption">
+                            <a href="/servicio">
+                              <h4>Branders Bridge Improvement</h4>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- Project Gallery #end -->
+
+                      </div>
+                  </div>
+              </div>
+              <!-- End Section -->
         </div>
-    </div>
+        
+      </div>
     <div class="gaps size-md"></div> 
     <!-- End Section -->
 
@@ -302,11 +473,13 @@
             <div class="footer-col col-md-3 col-sm-6 res-m-bttm">
               <!-- Each Widget -->
               <div class="wgs wgs-footer wgs-menu">
-                <h5 class="wgs-title">Links</h5>
+                <h5 class="wgs-title">ACERCA DE:</h5>
                 <div class="wgs-content">
                   <ul class="menu">
                     <li><a href="/">Inicio</a></li>
                     <li><a href="/nosotros">Nosotros</a></li>
+                    <li><a href="/servicios">Servicios</a></li>
+                    <li><a href="/construccion">Proyectos</a></li>
                     <li><a href="/cotizacion" >Contactanos</a></li>
                   </ul>
                 </div>
@@ -316,7 +489,7 @@
             <div class="footer-col col-md-3 col-sm-6">
               <!-- Each Widget -->
               <div class="wgs wgs-footer">
-                <h5 class="wgs-title">Contact us</h5>
+                <h5 class="wgs-title">Encuentranos en:</h5>
                 <div class="wgs-content">
                   <p>
                     <strong>16 de Septiembre N°23, </strong><br />
@@ -347,7 +520,7 @@
         <div class="row">
           <div class="site-copy col-sm-7">
             <p>
-              &copy; 2017 Industrial Company
+              &copy; <?php echo date("Y"); ?> PRICMIN GROUP SA DE CV
               <span class="sep"> . </span> Licensed NI099999<span class="sep">
                 .
               </span>

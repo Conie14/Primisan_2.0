@@ -76,7 +76,7 @@
             <ul class="nav navbar-nav">
               <li><a href="/">INICIO</a></li>
               <li><a href="/nosotros">NOSOTROS</a></li>
-              <li><a href="/servicios"">SERVICIOS</a></li>
+              <li><a href="/servicios">SERVICIOS</a></li>
               <li class="dropdown">
                 <a>PROYECTOS</a>
                   <ul class="dropdown-menu">
@@ -103,7 +103,20 @@
       <!-- #end Navbar -->
     </header>
     <!-- End Header -->
-
+      <!-- Banner -->
+      <div class="banner banner-static">
+        <div class="container">
+          <div class="content row">        
+            <div class="imagebg">
+              <img src="img/banner.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+		  <!-- End Banner -->
+      <h1> <center>NUESTROS SERVICIOS ACTUALES</center></h1>
     <!-- Project Section -->
     <div class="section section-projects section-pad">
       <div class="container">

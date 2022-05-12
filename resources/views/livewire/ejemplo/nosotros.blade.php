@@ -104,9 +104,9 @@
       <!-- Banner -->
       <div class="banner banner-static">
         <div class="container">
-          <div class="content row">        
+          <div class="content row">
             <div class="imagebg">
-              <img src="img/banner.jpg" alt="">
+              <img src="img/casco.jpg" alt="">
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@
                                 a nuestros clientes la orientación para solucionar y/o eficientar procesos
                                 donde se tengan o requieran implementar Sistemas Mecatrónico y de Automatización,
                                 Instalaciones Eléctrica, Montajes Mécanicos, Fabricación y Diseño de Maquinaria,
-                                Soldadura y Pintura hasta la Ampliación de Redes de Energía Eléctrica en Media y 
+                                Soldadura y Pintura hasta la Ampliación de Redes de Energía Eléctrica en Media y
                                 Baja Tensión e Instalación de Barreras Cortafuego HILTI.
                 </p>
             </div>
@@ -138,31 +138,31 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 res-m-bttm-sm">
-            <img src="img/construccion2.jpg" class="aligncenter" alt="" />  
+            <img src="img/construccion2.jpg" class="aligncenter" alt="" />
             <div class="gaps size-section"></div>
             <h4 class="font-w-300">VISIÓN</h4>
-            <p>Ser reconocidos, calificados y recomendados por parte de nuestros clientes 
-              como una empresa líder en Ingeniería y Proyectos, manteniendo la mejor calidad en 
+            <p>Ser reconocidos, calificados y recomendados por parte de nuestros clientes
+              como una empresa líder en Ingeniería y Proyectos, manteniendo la mejor calidad en
               nuestros servicios.
             </p>
           </div>
           <div class="col-md-6">
             <h4 class="font-w-300">FILOSOFIA:</h4>
-            <p>Creemos que lo más importante para nuestros clientes es la solución de sus necesidades 
-                y sus problemas utilizando tecnología de punta, logrando clientes satisfechos en sus 
-                requerimientos, así pues nuestra finalidad básica no es la comercialización de equipos 
+            <p>Creemos que lo más importante para nuestros clientes es la solución de sus necesidades
+                y sus problemas utilizando tecnología de punta, logrando clientes satisfechos en sus
+                requerimientos, así pues nuestra finalidad básica no es la comercialización de equipos
                 sino la búsqueda e implementación de soluciones reales.
-            </p>              
-            <div class="gaps size-md"></div>                    
+            </p>
+            <div class="gaps size-md"></div>
             <h4 class="font-w-300">MISIÓN:</h4>
-            <p>Ofrecer la mejor calidad en servicios brindando confianza a los clientes proporcionando 
-                Ingeniería y Servicios de primera, así como asesoramiento para proyectos 
+            <p>Ofrecer la mejor calidad en servicios brindando confianza a los clientes proporcionando
+                Ingeniería y Servicios de primera, así como asesoramiento para proyectos
                 futuros; ajustándonos a los lineamientos y filosofía de cada uno de los clientes.
             </p>
             <div class="gaps size-md"></div>
-            <img src="img/construccion2.jpg" class="aligncenter" alt="" /> 
+            <img src="img/construccion2.jpg" class="aligncenter" alt="" />
           </div>
-        </div>               
+        </div>
       </div>
     </div>
     <!-- End Content -->
@@ -256,7 +256,7 @@
         </div>
       </div>
     </div>
-    <!-- End Copyright --> 
+    <!-- End Copyright -->
 
     <!-- Preloader !active please if you want -->
     <!-- <div id="preloader"><div id="status">&nbsp;</div></div> -->

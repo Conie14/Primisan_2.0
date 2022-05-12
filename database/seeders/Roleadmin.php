@@ -17,8 +17,8 @@ class Roleadmin extends Seeder
     public function run()
     {
         $admin  = Role::create(["name"=>"Admin"]);
-        $seller = Role::create(["name"=>"Seller"]);
-        
+        $seller = Role::create(["name"=>"Seller"]);//los ingenieros
+
         Permission::create(["name"=>'seller.home'])->assignRole($seller);
         Permission::create(["name"=>'admin.home'])->assignRole($admin);
         Permission::create(["name"=>'admin.users.index'])->assignRole($admin);
